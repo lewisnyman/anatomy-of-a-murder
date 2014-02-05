@@ -1,0 +1,196 @@
+/* @override http://trent.local:8888/style.css 
+@override http://localhost:8888/style.css */
+
+
+/* Reset
+-------------------------------------------------------------- */
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,code,del,dfn,em,img,q,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{border:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;margin:0;padding:0;}
+table{border-collapse:separate;border-spacing:0;margin-bottom:1.4em;}
+caption,th,td{text-align:left;font-weight:400;}
+blockquote:before,blockquote:after,q:before,q:after{content:"";}
+blockquote,q{quotes:;}
+a img{border:none;}
+
+/* Micro Clearfix - http://nicolasgallagher.com/micro-clearfix-hack/ */
+.cf:before, .cf:after { content:""; display:table; }
+.cf:after { clear:both; }
+.cf { zoom:1; } /* For IE 6/7 (trigger hasLayout) */
+
+body {
+  background: #ABABAB url('anatomy_of_a_murder_ver2_xlg.jpg') no-repeat left top;
+}
+
+h1 {
+  color: #FDFDFD;
+  font-family: 'Chelsea Market', cursive;
+  font-weight: 100;
+  text-transform: uppercase;
+  position: absolute;
+  font-size: 2em;
+  left: 194px;
+  top: 208px;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  
+}
+
+h1 span {
+  float: left;
+}
+
+h1 .char1 {
+  -moz-transform:  translate(0, 4px)rotate(7.5deg) scale(1.1);  
+  -webkit-transform:  translate(0, 4px)rotate(7.5deg) scale(1.1);  
+  -webkit-transform-origin: 60% 100%;
+  -o-transform:  translate(0, 4px)rotate(7.5deg) scale(1.1);
+  -ms-transform:  translate(0, 4px)rotate(7.5deg) scale(1.1);
+  transform:  translate(0, 4px)rotate(7.5deg) scale(1.1);
+}
+
+h1 .char2 {
+  -moz-transform: translate(-3px, 4px) rotate(-5deg) skewY(-10deg) scaleY(1.4);
+  -webkit-transform: translate(-3px, 4px) rotate(-5deg) skewY(-10deg) scaleY(1.4);
+  -o-transform:  translate(-3px, 4px) rotate(-5deg) skewY(-10deg) scaleY(1.4);
+  -ms-transform:  translate(-3px, 4px) rotate(-5deg) skewY(-10deg) scaleY(1.4);
+  transform:translate(-3px, 4px) rotate(-5deg) skewY(-10deg) scaleY(1.4);
+  
+}
+
+h1 .char3 {
+  -moz-transform: translate(-4px, 4px) scaleY(1.2) skewY(-3deg) scaleY(1.4);
+  -webkit-transform: translate(-4px, 4px) scaleY(1.2) skewY(-3deg) scaleY(1.4);
+  -o-transform:  translate(-4px, 4px) scaleY(1.2) skewY(-3deg) scaleY(1.4);
+  -ms-transform:  translate(-4px, 4px) scaleY(1.2) skewY(-3deg) scaleY(1.4);
+  transform:translate(-4px, 4px) scaleY(1.2) skewY(-3deg) scaleY(1.4);
+}
+
+h1 .char4 {
+  -moz-transform: translate(-5px, 7px) scaleY(2) rotate(3deg);
+  -webkit-transform: translate(-5px, 6px) scaleY(2) rotate(3deg);
+  -o-transform:  translate(-5px, 7px) scaleY(2) rotate(3deg);
+  -ms-transform:  translate(-5px, 7px) scaleY(2) rotate(3deg);
+  transform:translate(-5px, 7px) scaleY(2) rotate(3deg);
+}
+
+h1 .char5 {
+  -webkit-transform: translate(-7px, 6px) scaleY(1);
+  -moz-transform: translate(-7px, 6px) scaleY(1);
+  -o-transform:   translate(-7px, 6px) scaleY(1);
+  -ms-transform:   translate(-7px, 6px) scaleY(1);
+  transform: translate(-7px, 6px) scaleY(1);
+}
+
+h1 .char6 {
+  -webkit-transform: translate(-7px, 12px) scaleY(1.7) rotate(5deg);
+  -moz-transform: translate(-7px, 12px) scaleY(1.7) rotate(5deg);
+  -o-transform:  translate(-7px, 12px) scaleY(1.7) rotate(5deg);
+  -ms-transform:  translate(-7px, 12px) scaleY(1.7) rotate(5deg);
+  transform:translate(-7px, 12px) scaleY(1.7) rotate(5deg);
+}
+
+h1 .char7 {
+  -webkit-transform: translate(-12px, 11px) scaleY(1.4) scaleX(0.8) rotate(5deg);
+  -moz-transform: translate(-12px, 11px) scaleY(1.4) scaleX(0.8) rotate(5deg);
+  -o-transform:  translate(-12px, 11px) scaleY(1.4) scaleX(0.8) rotate(5deg);
+  -ms-transform:  translate(-12px, 11px) scaleY(1.4) scaleX(0.8) rotate(5deg);
+  transform:translate(-12px, 11px) scaleY(1.4) scaleX(0.8) rotate(5deg);
+}
+
+h1 .char9,
+h1 .char10,
+h1 .char12  {
+  position: absolute;
+  top: 90px;
+  left: 100px;
+}
+
+h1 .char10 {
+  left: 120px;
+}
+
+h1 .char12 {
+  left: 140px;
+  -moz-transform: translate(0, -1px) scaleY(1.4) skewY(-10deg) skewX(-7deg);
+  -webkit-transform: translate(0, -2px) scaleY(1.4) skewY(-10deg) skewX(-7deg);
+  -o-transform:  translate(0, -1px) scaleY(1.4) skewY(-10deg) skewX(-7deg);
+  -ms-transform:  translate(0, -1px) scaleY(1.4) skewY(-10deg) skewX(-7deg);
+  transform:translate(0, -1px) scaleY(1.4) skewY(-10deg) skewX(-7deg);
+}
+
+h1 .char9 {
+   -moz-transform: translate(0, 2px) scale(0.8);
+    -webkit-transform: translate(0, 2px) scale(0.8); 
+    -o-transform:  translate(0, 2px) scale(0.8); 
+  -ms-transform:  translate(0, 2px) scale(0.8); 
+  transform:translate(0, 2px) scale(0.8); 
+}
+
+h1 .char10 {
+   -moz-transform: translate(3px, 2px) scaleY(1.2) skewX(-10deg);
+   -webkit-transform: translate(3px, 2px) scaleY(1.2) skewX(-10deg); 
+   -o-transform:  translate(3px, 2px) scaleY(1.2) skewX(-10deg); 
+  -ms-transform:  translate(3px, 2px) scaleY(1.2) skewX(-10deg); 
+  transform:translate(3px, 2px) scaleY(1.2) skewX(-10deg); 
+}
+
+h1 .char14,
+h1 .char15,
+h1 .char16,
+h1 .char17,
+h1 .char18,
+h1 .char19 {
+  position: relative;
+  left: 30px;
+  top: 80px;
+}
+
+h1 .char14 {
+   -moz-transform: translate(0, 2px) scaleY(1.6) skewY(10deg);
+   -webkit-transform: translate(0, 1px) scaleY(1.6) skewY(10deg);
+   -o-transform:  translate(0, 1px) scaleY(1.6) skewY(10deg);
+  -ms-transform:  translate(0, 1px) scaleY(1.6) skewY(10deg);
+  transform:translate(0, 1px) scaleY(1.6) skewY(10deg);
+}
+
+h1 .char15 {
+   -moz-transform: translate(-2px, 0px) scaleY(1.2) skewY(0deg);
+   -webkit-transform: translate(-2px, 0px) scaleY(1.2) skewY(0deg);
+   -o-transform:  translate(-2px, 0px) scaleY(1.2) skewY(0deg);
+  -ms-transform:  translate(-2px, 0px) scaleY(1.2) skewY(0deg);
+  transform:translate(-2px, 0px) scaleY(1.2) skewY(0deg);
+
+}
+
+h1 .char16 {
+   -moz-transform: translate(-3px, -2px) scaleY(1.4) scaleX(0.9) skewX(10deg);
+  -webkit-transform: translate(-3px, -2px) scaleY(1.4) scaleX(0.9) skewX(10deg);
+  -o-transform:  translate(-3px, -2px) scaleY(1.4) scaleX(0.9) skewX(10deg);
+  -ms-transform:  translate(-3px, -2px) scaleY(1.4) scaleX(0.9) skewX(10deg);
+  transform:translate(-3px, -2px) scaleY(1.4) scaleX(0.9) skewX(10deg);
+   
+}
+
+h1 .char17 {
+   -moz-transform: translate(-3px, -4px) scaleY(1.8) scaleX(1.4) skewX(0deg) ;
+   -webkit-transform: translate(-3px, -4px) scaleY(1.8) scaleX(1.4) skewX(0deg) ;
+   -o-transform:  translate(-3px, -4px) scaleY(1.8) scaleX(1.4) skewX(0deg) ;
+  -ms-transform:  translate(-3px, -4px) scaleY(1.8) scaleX(1.4) skewX(0deg) ;
+  transform:translate(-3px, -4px) scaleY(1.8) scaleX(1.4) skewX(0deg) ;
+}
+
+h1 .char18 {
+   -moz-transform: translate(-3px, -4px) scaleY(1.4) skewX(0deg) ;
+  -webkit-transform: translate(-3px, -4px) scaleY(1.4) skewX(0deg) ;
+  -o-transform:  translate(-3px, -4px) scaleY(1.4) skewX(0deg) ;
+  -ms-transform:  translate(-3px, -4px) scaleY(1.4) skewX(0deg) ;
+  transform:translate(-3px, -4px) scaleY(1.4) skewX(0deg) ;
+}
+
+h1 .char19 {
+   -moz-transform: translate(-5px, -4px) scaleY(1.4) skewX(6deg) rotate(-2deg);
+  -webkit-transform: translate(-5px, -4px) scaleY(1.4) skewX(6deg) rotate(-2deg);
+  -o-transform:   translate(-5px, -4px) scaleY(1.4) skewX(6deg) rotate(-2deg);
+  -ms-transform:   translate(-5px, -4px) scaleY(1.4) skewX(6deg) rotate(-2deg);
+  transform: translate(-5px, -4px) scaleY(1.4) skewX(6deg) rotate(-2deg);
+}
